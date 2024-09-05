@@ -1,6 +1,6 @@
-CREATE DATABASE ventas_php;
+CREATE DATABASE coing_2;
 
-USE ventas_php;
+USE coing_2;
 
 CREATE TABLE productos(
     id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -27,7 +27,8 @@ CREATE TABLE usuarios(
     password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO usuarios (usuario, nombre, telefono, direccion, password) VALUES ("paco", "PacoHunter", "6667771234", "Nowhere", "$2y$10$6zeiv5cq4/HCjWBH5X/Fd.yxKfDaWa5sJaYfW302n./awI/lQcH0i");
+INSERT INTO usuarios (usuario, nombre, telefono, direccion, password) VALUES ("ADMIN", "juan", "3124082284", "N/A", "$2y$10$Kd9pKTZLYCnRA0Zvgbrl9uUsC5zRp.HiFSPpv6BzXhxG6Xa.ZjvZe");
+                                                                                                                                     
 
 CREATE TABLE ventas(
     id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,

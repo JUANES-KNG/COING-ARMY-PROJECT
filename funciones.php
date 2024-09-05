@@ -1,6 +1,6 @@
 <?php
 
-define("PASSWORD_PREDETERMINADA", "PacoHunterDev");
+define("PASSWORD_PREDETERMINADA", "12345678");
 define("HOY", date("Y-m-d"));
 
 function iniciarSesion($usuario, $password){
@@ -97,7 +97,6 @@ function obtenerNumeroClientes(){
     $sentencia = "SELECT IFNULL(COUNT(*),0) AS total FROM clientes";
     return select($sentencia)[0]->total;
 }
-
 
 function obtenerVentasPorUsuario(){
     $sentencia = "SELECT SUM(ventas.total) AS total, usuarios.usuario, COUNT(*) AS numeroVentas 
@@ -425,7 +424,7 @@ function editar($sentencia, $parametros ){
 
 function conectarBaseDatos() {
 	$host = "localhost";
-	$db   = "ventas_php";
+	$db   = "coing_2";
 	$user = "root";
 	$pass = "";
 	$charset = 'utf8mb4';

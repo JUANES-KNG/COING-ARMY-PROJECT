@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-2 shadow   rounded">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 shadow   rounded">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="logo.png" alt="" width="150" height="40" class="d-inline-block align-text-top">
@@ -35,13 +35,13 @@
         <li class="nav-item">
             <a class="nav-link active" href="vender.php">
             <i class="fa fa-cash-register"></i>   
-            Vender
+            Vender / Cotizar
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link active" href="reporte_ventas.php">
             <i class="fa fa-file-alt"></i> 
-            Reporte ventas
+            Reporte ventas / Cotizaciones
             </a>
         </li>
         </ul>
